@@ -1,0 +1,17 @@
+{
+    "name": "@workshop-infrastructure/user-created-handler",
+    "version": "1.0.0",
+    "main": "dist/main.js",
+    "scripts": {
+        "build": "webpack --mode=production",
+        "build:dev": "webpack --mode=development",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@workshop-infrastructure/user-model": "*"
+    },
+    "devDependencies": {
+        "copy-webpack-plugin": "^11.0.0",
+        "zip-webpack-plugin": "^4.0.1"
+    }
+}
